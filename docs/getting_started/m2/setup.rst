@@ -1,4 +1,4 @@
-Demo Page
+M2
 --------
 
 testing !
