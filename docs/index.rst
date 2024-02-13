@@ -10,11 +10,6 @@ Testing a new documentation wiki for MakerGear
 Contents
 --------
 testing again
-
-
-.. toctree::
-
-   Home <self>
    
 .. toctree:: 
    :hidden:
@@ -35,8 +30,8 @@ testing again
    :name: sec-software
 
    software/control_software
-   software/slicers
-   software/octoprint
+   software/slicers/index
+   software/octoprint/index
    software/3d_modeling_software
 
 .. toctree::

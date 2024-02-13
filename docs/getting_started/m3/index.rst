@@ -5,7 +5,7 @@ test page
 
 .. toctree::
    :maxdepth: 1
-   :name: toc-u1-getting-started
+   :name: toc-m3-getting-started
 
    introduction_m3
    setup_m3
