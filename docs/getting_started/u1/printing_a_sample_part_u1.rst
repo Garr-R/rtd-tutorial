@@ -1,4 +1,4 @@
-Demo Page
---------
+Printing a Sample Part
+======================
 
-testing !
+testing page
