@@ -1,4 +1,4 @@
-Welcome to Garrett's documentation testing!
+MG Wiki Test
 ===================================
 
 Testing a new documentation wiki for MakerGear
@@ -13,6 +13,10 @@ testing again
 
 
 .. toctree::
+
+   Home <self>
+   
+.. toctree:: 
    :hidden:
    :maxdepth: 1
    :caption: Getting Started
@@ -20,8 +24,8 @@ testing again
 
    getting_started/u1/index
    getting_started/m3/index
-   getting_started/m2/index
-   getting_started/micro/index
+   getting_started/m2/setup
+   getting_started/micro/setup
 
 
 .. toctree::
