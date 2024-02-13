@@ -18,13 +18,14 @@ import os
 
 # -- Project information -----------------------------------------------------
 
-project = "Basic Sphinx Example Project"
-copyright = "2022, Read the Docs core team"
-author = "Read the Docs core team"
+project = 'MG_Docs'
+author = 'Garrett'
+
+release = '0.1.0'
+version = '0.1.0'
 
 
 # -- General configuration ---------------------------------------------------
-# -- General configuration
 
 extensions = [
     "sphinx.ext.duration",
