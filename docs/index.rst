@@ -1,7 +1,7 @@
 Welcome to Garrett's documentation testing!
 ===================================
 
-Testing new documentation website for MakerGear
+Testing a new documentation wiki for MakerGear
 
 .. note::
 
@@ -9,9 +9,11 @@ Testing new documentation website for MakerGear
 
 Contents
 --------
+testing again
+
 
 .. toctree::
-   ..:hidden:
+   :hidden:
    :maxdepth: 1
    :caption: Getting Started
    :name: sec-general
@@ -23,7 +25,7 @@ Contents
 
 
 .. toctree::
-   ..:hidden:
+   :hidden:
    :maxdepth: 1
    :caption: Software
    :name: sec-software
@@ -34,7 +36,7 @@ Contents
    software/3d_modeling_software
 
 .. toctree::
-   ..:hidden:
+   :hidden:
    :maxdepth: 1
    :caption: Firmware
    :name: sec-firmware
@@ -45,7 +47,7 @@ Contents
    firmware/micro/index
 
 .. toctree::
-   ..:hidden:
+   :hidden:
    :maxdepth: 1
    :caption: Slicing 3D Models
    :name: sec-slicing
@@ -54,7 +56,7 @@ Contents
    /slicing/simplify3d/index
 
 .. toctree::
-   ..:hidden:
+   :hidden:
    :maxdepth: 1
    :caption: Calibration
    :name: sec-calibration
@@ -66,7 +68,7 @@ Contents
    /calibration/micro/index
 
    .. toctree::
-   ..:hidden:
+   :hidden:
    :maxdepth: 1
    :caption: Upgrades
    :name: sec-upgrades
@@ -76,7 +78,7 @@ Contents
    /upgrades/m2/index
    
    .. toctree::
-   ..:hidden:
+   :hidden:
    :maxdepth: 1
    :caption: Troubleshooting
    :name: sec-troubleshooting
@@ -86,7 +88,7 @@ Contents
    /troubleshooting/runout/index
 
    .. toctree::
-   ..:hidden:
+   :hidden:
    :maxdepth: 1
    :caption: Additional Resources
    :name: sec-resources
