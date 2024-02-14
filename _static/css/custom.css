@@ -6,7 +6,12 @@
 .wy-nav-side { overflow: visible; }
 .wy-side-scroll { overflow-x: inherit; }
 
-
+.wy-menu.wy-menu-vertical {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: calc(100% - 348px);
+    padding-bottom: 24px;
+}
 
 
 
@@ -46,5 +51,15 @@
     .wy-nav-side .wy-side-scroll .ethical-rtd {
         width: calc(300px - 1.25em);
         padding: 0 0 0 1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wy-nav-side {
+        padding-bottom: 44px;
+    }
+    .wy-menu.wy-menu-vertical {
+        overflow-y: initial;
+        max-height: initial;
     }
 }
