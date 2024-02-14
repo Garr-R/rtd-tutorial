@@ -1,6 +1,53 @@
+ /* Default (light) theme colors */
+ :root {
+    color-scheme: light dark;
+    --body-color: #404040;
+    --content-wrap-background-color: #efefef;
+    --content-background-color: #fcfcfc;
+    --logo-opacity: 1.0;
+
+    --navbar-background-color: #8c8784;
+    /* --navbar-background-color-hover: #29355c;
+    --navbar-background-color-active: #212d51;
+    --navbar-current-background-color: #212d51;
+    --navbar-current-background-color-hover: #182343;
+    --navbar-current-background-color-active: #131e3b;
+    --navbar-category-active-color: rgba(255 115 129 / 10%);
+    --navbar-current-color: #f1f9ff;
+    --navbar-level-1-color: #c3e3ff;
+    --navbar-level-2-color: #b8d6f0;
+    --navbar-level-3-color: #a3c4e1;
+    --navbar-expand-base-color: #81a3c2;
+    --navbar-expand-hover-color: #c3e3ff;
+    --navbar-expand-active-color: #f1f9ff;
+    --navbar-dimmed-color: #a3c4e1;
+    --navbar-heading-color: #ff7381;
+    --navbar-scrollbar-color: #d45a66;
+    --navbar-scrollbar-hover-color: #b14550;
+    --navbar-scrollbar-active-color: #72383e;
+    --navbar-scrollbar-background: #131e2b; */
+
+    --link-color: #2980b9;
+    --link-color-hover: #3091d1;
+    --link-color-active: #105078;
+    --link-color-visited: #9b59b6;
+ }
+
+
+
+/* Main sections */
+
+.wy-nav-content-wrap {
+    background-color: var(--content-wrap-background-color);
+}
+
 .wy-nav-content {
-    /*background-color: var(--content-background-color);*/
+    background-color: var(--content-background-color);
     max-width: 900px;
+}
+
+.wy-body-for-nav {
+    background-color: var(--content-wrap-background-color);
 }
 
 .wy-nav-side { overflow: visible; }
