@@ -37,17 +37,6 @@ testing again
 .. toctree::
    :hidden:
    :maxdepth: 1
-   :caption: Firmware
-   :name: sec-firmware
-
-   firmware/u1/index
-   firmware/m3/index
-   firmware/m2/index
-   firmware/micro/index
-
-.. toctree::
-   :hidden:
-   :maxdepth: 1
    :caption: Slicing 3D Models
    :name: sec-slicing
 
@@ -62,20 +51,10 @@ testing again
    :name: sec-calibration
 
    /calibration/u1/index
-   /calibration/m3_rev1/index
-   /calibration/m3_rev0/index
+   /calibration/m3/rev1/index
+   /calibration/m3/rev0/index
    /calibration/m2/index
    /calibration/micro/index
-
-   .. toctree::
-   :hidden:
-   :maxdepth: 1
-   :caption: Upgrades
-   :name: sec-upgrades
-
-   /upgrades/u1/index
-   /upgrades/m3/index
-   /upgrades/m2/index
    
    .. toctree::
    :hidden:
@@ -86,6 +65,27 @@ testing again
    /troubleshooting/extruder/index
    /troubleshooting/probe/index
    /troubleshooting/runout/index
+
+   .. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Upgrades
+   :name: sec-upgrades
+
+   /upgrades/u1/index
+   /upgrades/m3/index
+   /upgrades/m2/index
+
+   .. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Firmware
+   :name: sec-firmware
+
+   firmware/u1/index
+   firmware/m3/index
+   firmware/m2/index
+   firmware/micro/index
 
    .. toctree::
    :hidden:
