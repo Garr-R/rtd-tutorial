@@ -6,11 +6,94 @@
 .wy-nav-side { overflow: visible; }
 .wy-side-scroll { overflow-x: inherit; }
 
+/* Togglable sidebar sections. */
+.wy-menu-vertical p.caption {
+    cursor: pointer;
+}
+.wy-menu-vertical p.caption.active {
+    background-color: var(--navbar-category-active-color);
+}
+.wy-menu-vertical p.caption:hover {
+    background-color: var(--navbar-background-color-hover);
+}
+
+.wy-menu-vertical p.caption.active .caption-text:before {
+    transform: rotate(90deg);
+}
+.wy-menu-vertical p.caption .caption-text:before {
+    content: "❯";
+    display: inline-block;
+    margin-left: -4px;
+    transition: transform 0.2s;
+    width: 16px;
+    height: 32px;
+    transform-origin: 2px 16px;
+}
+
+.wy-menu-vertical p.caption + ul {
+    display: none;
+}
+.wy-menu-vertical p.caption + ul.active {
+    display: block;
+}
+
 .wy-menu.wy-menu-vertical {
     overflow-y: auto;
     overflow-x: hidden;
     max-height: calc(100% - 348px);
     padding-bottom: 24px;
+}
+
+.wy-menu-vertical li > a {
+    color: var(--navbar-level-1-color);
+    font-size: 92%;
+    line-height: 20px;
+    padding: .4045em 1.618em;
+}
+
+.wy-menu-vertical li > a button.toctree-expand {
+    color: var(--navbar-expand-base-color) !important;
+    opacity: 0.9;
+    margin-right: 8px;
+
+    /* Make the expand icon a bit easier to hit. */
+    position: relative;
+    width: 12px;
+    min-width: 12px; /* Forces the size to stay this way in the flexbox model. */
+    height: 18px;
+}
+.wy-menu-vertical li.current > a button.toctree-expand {
+    color: var(--navbar-current-color) !important;
+}
+.wy-menu-vertical li > a:hover button.toctree-expand {
+    color: var(--navbar-expand-hover-color) !important;
+    opacity: 1;
+}
+.wy-menu-vertical li > a:active button.toctree-expand {
+    color: var(--navbar-expand-active-color) !important;
+    opacity: 1;
+}
+
+/* Make the expand icon a bit easier to hit. */
+.wy-menu-vertical li > a button.toctree-expand:before {
+    position: absolute;
+    top: -2px;
+    left: -6px;
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+}
+
+.wy-menu-vertical li.current > a,
+.wy-menu-vertical li.toctree-l2.current > a {
+    background-color: var(--navbar-current-background-color-hover);
+    border-bottom: 2px solid var(--navbar-current-background-color);
+    color: var(--navbar-current-color);
+    font-weight: 600;
+
+    /* Make long words always display on a single line, keep wrapping for multiple words */
+    /* This fixes the class reference titles' display with very long class names */
+    display: flex;
 }
 
 
