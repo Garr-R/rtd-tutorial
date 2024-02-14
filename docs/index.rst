@@ -56,7 +56,7 @@ testing again
    calibration/m2/index
    calibration/micro/index
    
-   .. toctree::
+.. toctree::
    :hidden:
    :maxdepth: 1
    :caption: Troubleshooting
@@ -70,7 +70,7 @@ testing again
    troubleshooting/idler/index
    troubleshooting/runout
 
-   .. toctree::
+.. toctree::
    :hidden:
    :maxdepth: 1
    :caption: Upgrades
@@ -81,7 +81,7 @@ testing again
    upgrades/m3/index
    upgrades/m2/index
 
-   .. toctree::
+.. toctree::
    :hidden:
    :maxdepth: 1
    :caption: Firmware
@@ -92,7 +92,7 @@ testing again
    firmware/m2/index
    firmware/micro/index
 
-   .. toctree::
+.. toctree::
    :hidden:
    :maxdepth: 1
    :caption: Additional Resources
