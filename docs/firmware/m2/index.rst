@@ -1,13 +1,13 @@
 M2 Firmware
 ===========
 
-Firmware index page
+M2 Firmware index page
 
 .. toctree::
    :maxdepth: 1
-   :name: toc-software
+   :name: toc-firmware-m2
 
    firmware_selector_m2
-   firmware_installation_m2
+   installing_firmware_m2
    compiling_firmware_m2
    
