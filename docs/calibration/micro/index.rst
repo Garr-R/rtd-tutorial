@@ -9,4 +9,5 @@ Micro Calibration index test page
 
    tool_0_offset_micro
    bed_mesh_micro
+   pid_micro
    e_step_micro

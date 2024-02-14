@@ -63,8 +63,12 @@ testing again
    :name: sec-troubleshooting
 
    /troubleshooting/extruder/index
-   /troubleshooting/probe/index
-   /troubleshooting/runout/index
+   /troubleshooting/temperature/index
+   /troubleshooting/layer_shift/index
+   /troubleshooting/probe
+   /troubleshooting/carriage/index
+   /troubleshooting/idler/index
+   /troubleshooting/runout
 
    .. toctree::
    :hidden:
@@ -72,7 +76,8 @@ testing again
    :caption: Upgrades
    :name: sec-upgrades
 
-   /upgrades/u1/index
+   /upgrades/runout_u1
+   /upgrades/usb_printing
    /upgrades/m3/index
    /upgrades/m2/index
 
@@ -93,9 +98,14 @@ testing again
    :caption: Additional Resources
    :name: sec-resources
 
-   /additional_resources/filament/index
-   /additional_resources/3d_models/index
-   /additional_resources/product_history/index
-   /additional_resources/sample_prints/index
-   /additional_resources/printed_parts/index
-   /additional_resources/user_guides/index
+   additional_resources/filament
+   additional_resources/printed_parts
+   additional_resources/user_guides
+   additional_resources/sample_prints
+   additional_resources/registration
+   additional_resources/3d_models
+   additional_resources/educator
+   additional_resources/product_history
+   additional_resources/third_party_products
+   
+   

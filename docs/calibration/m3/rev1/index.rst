@@ -10,5 +10,5 @@ M3 Rev.1 Calibration index test page
    tool_0_offset_m3_rev1
    tool_1_offset_m3_rev1
    xy_offset_m3_rev1
-   pid_bed_m3_rev1
+   pid_m3_rev1
    e_step_m3_rev1

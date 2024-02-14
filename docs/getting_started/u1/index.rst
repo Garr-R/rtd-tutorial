@@ -10,4 +10,4 @@ test page
    introduction_u1
    setup_u1
    using_octoprint_u1
-   printing_a_sample_part
+   printing_a_sample_part_u1
