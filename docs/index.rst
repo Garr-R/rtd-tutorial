@@ -40,9 +40,9 @@ testing again
    :caption: Slicing 3D Models
    :name: sec-slicing
 
-   /slicing/prusaslicer/index
-   /slicing/simplify3d/index
-   /slicing/dual_color_single_extruder
+   slicing/prusaslicer/index
+   slicing/simplify3d/index
+   slicing/dual_color_single_extruder
 
 .. toctree::
    :hidden:
@@ -50,11 +50,11 @@ testing again
    :caption: Calibration
    :name: sec-calibration
 
-   /calibration/u1/index
-   /calibration/m3/rev1/index
-   /calibration/m3/rev0/index
-   /calibration/m2/index
-   /calibration/micro/index
+   calibration/u1/index
+   calibration/m3/rev1/index
+   calibration/m3/rev0/index
+   calibration/m2/index
+   calibration/micro/index
    
    .. toctree::
    :hidden:
@@ -62,13 +62,13 @@ testing again
    :caption: Troubleshooting
    :name: sec-troubleshooting
 
-   /troubleshooting/extruder/index
-   /troubleshooting/temperature/index
-   /troubleshooting/layer_shift/index
-   /troubleshooting/probe
-   /troubleshooting/carriage/index
-   /troubleshooting/idler/index
-   /troubleshooting/runout
+   troubleshooting/extruder/index
+   troubleshooting/temperature/index
+   troubleshooting/layer_shift/index
+   troubleshooting/probe
+   troubleshooting/carriage/index
+   troubleshooting/idler/index
+   troubleshooting/runout
 
    .. toctree::
    :hidden:
@@ -76,10 +76,10 @@ testing again
    :caption: Upgrades
    :name: sec-upgrades
 
-   /upgrades/runout_u1
-   /upgrades/usb_printing
-   /upgrades/m3/index
-   /upgrades/m2/index
+   upgrades/runout_u1
+   upgrades/usb_printing
+   upgrades/m3/index
+   upgrades/m2/index
 
    .. toctree::
    :hidden:
@@ -107,5 +107,4 @@ testing again
    additional_resources/educator
    additional_resources/product_history
    additional_resources/third_party_products
-   
    
