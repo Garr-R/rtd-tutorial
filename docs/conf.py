@@ -44,6 +44,8 @@ intersphinx_disabled_domains = ["std"]
 
 templates_path = ["_templates"]
 
+master_doc = "index"
+
 # -- Options for EPUB output
 epub_show_urls = "footnote"
 
@@ -75,3 +77,9 @@ html_logo = "img/docs_logo.png"
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
+
+# Increment the number at the end when the file changes to bust the cache.
+html_css_files = ["css/custom.css?1"] 
+
+# Increment the number at the end when the file changes to bust the cache.
+html_js_files = ["js/custom.js?1"]

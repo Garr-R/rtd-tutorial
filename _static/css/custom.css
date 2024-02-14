@@ -1,0 +1,50 @@
+.wy-nav-content {
+    /*background-color: var(--content-background-color);*/
+    max-width: 900px;
+}
+
+.wy-nav-side { overflow: visible; }
+.wy-side-scroll { overflow-x: inherit; }
+
+
+
+
+
+@media only screen and (min-width: 769px) {
+    .wy-body-for-nav {
+        /* Center the page on wide displays for better readability */
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .wy-side-nav-search.fixed-and-scrolled::after {
+        /* Simulate a drop shadow that only affects the bottom edge */
+        /* This is used to indicate the search bar is fixed */
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -8px;
+        width: 300px;
+        height: 8px;
+        pointer-events: none;
+        background: linear-gradient(hsla(0, 0%, 0%, 0.2), transparent);
+    }
+    .wy-nav-side {
+        /* Required to center the page on wide displays */
+        left: inherit;
+    }
+    .rst-versions {
+        /* Required to center the page on wide displays */
+        left: inherit;
+    }
+    
+    .wy-side-scroll {
+        /* Allows the scrollbar to be shown in the sidebar */
+        overflow: hidden;
+    }
+
+    .wy-nav-side .wy-side-scroll .ethical-rtd {
+        width: calc(300px - 1.25em);
+        padding: 0 0 0 1em;
+    }
+}
