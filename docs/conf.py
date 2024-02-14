@@ -79,7 +79,7 @@ html_logo = "img/docs_logo.png"
 html_static_path = ["_static"]
 
 # Increment the number at the end when the file changes to bust the cache.
-html_css_files = ["css/custom.css?1"] 
+html_css_files = ["css/custom.css"] 
 
 # Increment the number at the end when the file changes to bust the cache.
-html_js_files = ["js/custom.js?1"]
+html_js_files = ["js/custom.js"]
