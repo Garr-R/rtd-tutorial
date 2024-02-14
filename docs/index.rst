@@ -53,6 +53,7 @@ testing again
 
    /slicing/prusaslicer/index
    /slicing/simplify3d/index
+   /slicing/dual_color_single_extruder
 
 .. toctree::
    :hidden:
