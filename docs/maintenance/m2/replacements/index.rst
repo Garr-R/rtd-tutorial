@@ -1,4 +1,4 @@
-M2 Replacement Guides
+Replacement Guides
 ========================
 
 M2 Replacement Guides index page

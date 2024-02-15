@@ -1,4 +1,4 @@
-M3 Replacement Guides
+Replacement Guides
 ========================
 
 M3 Replacement Guides index page
