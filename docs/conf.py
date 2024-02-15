@@ -51,7 +51,7 @@ master_doc = "index"
 epub_show_urls = "footnote"
 
 # Build PDF & ePub
-formats: all
+formats = "all"
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
