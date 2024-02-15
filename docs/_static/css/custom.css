@@ -31,6 +31,14 @@
     --link-color-hover: #3091d1;
     --link-color-active: #105078;
     --link-color-visited: #9b59b6;
+
+    --search-input-background-color: #e6eef3; /* derived from --input-background-color */
+    --search-match-color: #2c6b96; /* derived from --link-color */
+    --search-match-background-color: #e3f2fd; /* derived from --link-color */
+    --search-active-color: #efefef;
+    --search-credits-background-color: #333f67; /* derived from --navbar-background-color */
+    --search-credits-color: #b3b3b3; /* derived from --footer-color */
+    --search-credits-link-color: #4392c5; /* derived from --link-color */
  }
 
 
