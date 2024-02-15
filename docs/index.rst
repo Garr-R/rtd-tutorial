@@ -73,6 +73,21 @@ testing again
 .. toctree::
    :hidden:
    :maxdepth: 1
+   :caption: Maintenance
+   :name: sec-maintenance
+
+   maintenance/v4_hotend/index
+   maintenance/probe/index
+   maintenance/build_surface
+   maintenance/u1/index
+   maintenance/m3/index
+   maintenance/m2/index
+.. maintenance/micro/index
+
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
    :caption: Upgrades
    :name: sec-upgrades
 

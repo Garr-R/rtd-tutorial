@@ -87,7 +87,6 @@
 .wy-menu.wy-menu-vertical {
     overflow-y: auto;
     overflow-x: hidden;
-    max-height: calc(100% - 348px);
     padding-bottom: 24px;
 }
 
