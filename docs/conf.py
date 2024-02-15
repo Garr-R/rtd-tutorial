@@ -33,6 +33,7 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
     "sphinx.ext.intersphinx",
+    'notfound.extension',
 ]
 
 intersphinx_mapping = {
@@ -48,6 +49,9 @@ master_doc = "index"
 
 # -- Options for EPUB output
 epub_show_urls = "footnote"
+
+# Build PDF & ePub
+formats: all
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -77,6 +81,8 @@ html_logo = "img/docs_logo.png"
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
+
+html_extra_path = ["robots.txt"]
 
 # Increment the number at the end when the file changes to bust the cache.
 html_css_files = ["css/custom.css"] 
