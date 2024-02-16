@@ -122,4 +122,16 @@ testing again
    additional_resources/educator
    additional_resources/product_history
    additional_resources/third_party_products
+
+
+   .. toctree::
+   :hidden:
+   :maxdepth: 1
+   :caption: Misc
+   :name: sec-misc
+
+   misc/packing/index
+   misc/starting_height/index
+   misc/pause_park_script
+   misc/wifi_adjustment
    

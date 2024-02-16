@@ -1,3 +1,3 @@
 user-agent: *
 
-sitemap: https://docs.godotengine.org/sitemap.xml
+sitemap: https://garr-testing-rtd.readthedocs.io/sitemap.xml
