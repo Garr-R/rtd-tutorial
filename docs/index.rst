@@ -124,7 +124,7 @@ testing again
    additional_resources/third_party_products
 
 
-   .. toctree::
+.. toctree::
    :hidden:
    :maxdepth: 1
    :caption: Misc
@@ -134,4 +134,3 @@ testing again
    misc/starting_height/index
    misc/pause_park_script
    misc/wifi_adjustment
-   
