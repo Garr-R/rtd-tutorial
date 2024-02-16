@@ -10,6 +10,7 @@ M2 Replacement Guides index page
    wiring/index
    belt_replacement_m2
    carriage_replacement_m2
+   electronics_replacement_m2
    fan_replacement_m2
    filament_drive_replacement_m2
    fuse_replacement_m2

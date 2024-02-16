@@ -9,3 +9,4 @@ M3 Replacement Wiring Guides index page
 
    tool_0_ext_harness_m3
    tool_1_ext_harness_m3
+   pi_power_m3

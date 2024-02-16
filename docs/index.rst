@@ -22,17 +22,16 @@ testing again
    getting_started/m2/setup
    getting_started/micro/setup
 
-
 .. toctree::
    :hidden:
    :maxdepth: 1
    :caption: Software
    :name: sec-software
 
-   software/control_software
    software/slicers/index
    software/octoprint/index
    software/3d_modeling_software
+   software/control_software
 
 .. toctree::
    :hidden:
@@ -43,6 +42,7 @@ testing again
    slicing/prusaslicer/index
    slicing/simplify3d/index
    slicing/dual_color_single_extruder
+   slicing/pause_insert
 
 .. toctree::
    :hidden:
@@ -62,13 +62,13 @@ testing again
    :caption: Troubleshooting
    :name: sec-troubleshooting
 
-   troubleshooting/extruder/index
-   troubleshooting/temperature/index
-   troubleshooting/layer_shift/index
-   troubleshooting/probe
    troubleshooting/carriage/index
+   troubleshooting/extruder/index
    troubleshooting/idler/index
-   troubleshooting/runout
+   troubleshooting/layer_shift/index
+   troubleshooting/temperature/index
+   troubleshooting/troubleshooting_probe
+   troubleshooting/troubleshooting_runout
 
 .. toctree::
    :hidden:
@@ -78,12 +78,11 @@ testing again
 
    maintenance/v4_hotend/index
    maintenance/probe/index
-   maintenance/build_surface
    maintenance/u1/index
    maintenance/m3/index
    maintenance/m2/index
+   maintenance/build_surface
 .. maintenance/micro/index
-
 
 .. toctree::
    :hidden:
@@ -91,10 +90,10 @@ testing again
    :caption: Upgrades
    :name: sec-upgrades
 
-   upgrades/runout_u1
-   upgrades/usb_printing
    upgrades/m3/index
    upgrades/m2/index
+   upgrades/runout_u1
+   upgrades/usb_printing
 
 .. toctree::
    :hidden:
@@ -113,16 +112,15 @@ testing again
    :caption: Additional Resources
    :name: sec-resources
 
-   additional_resources/filament
-   additional_resources/printed_parts
-   additional_resources/user_guides
-   additional_resources/sample_prints
-   additional_resources/registration
    additional_resources/3d_models
    additional_resources/educator
+   additional_resources/filament
+   additional_resources/printed_parts
    additional_resources/product_history
+   additional_resources/registration
+   additional_resources/sample_prints
    additional_resources/third_party_products
-
+   additional_resources/user_guides
 
 .. toctree::
    :hidden:
@@ -132,5 +130,13 @@ testing again
 
    misc/packing/index
    misc/starting_height/index
+   misc/custom_upgrades
+   misc/duet_web_control
+   misc/ssh
+   misc/software_endstops
+   misc/static_ip
    misc/pause_park_script
+   misc/webcam
    misc/wifi_adjustment
+   misc/support
+   misc/collect_logs

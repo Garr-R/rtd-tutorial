@@ -9,3 +9,4 @@ U1 Replacement Wiring Guides index page
 
    tool_0_ext_harness_u1
    tool_1_ext_harness_u1
+   pi_power_u1

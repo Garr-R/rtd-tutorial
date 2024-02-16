@@ -12,3 +12,4 @@ M3 Maintenance index page
    electronics_overview_m3
    lubrication_m3
    maintenance_schedule_m3
+   pi_cable_m3

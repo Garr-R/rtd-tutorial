@@ -10,6 +10,7 @@ M3 Replacement Guides index page
    wiring/index
    belt_replacement_m3
    carriage_replacement_m3
+   electronics_replacement_m3
    fan_replacement_m3
    filament_drive_replacement_m3
    fuse_replacement_m3

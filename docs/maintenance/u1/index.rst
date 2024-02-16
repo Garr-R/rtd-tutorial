@@ -10,5 +10,6 @@ U1 Maintenance index page
    replacements/index
    belt_tension_u1
    electronics_overview_u1
+   leds_u1
    lubrication_u1
    maintenance_schedule_u1
