@@ -184,10 +184,10 @@
         left: inherit;
     }
     
-    .wy-side-scroll {
+    /* .wy-side-scroll {
         /* Allows the scrollbar to be shown in the sidebar */
         overflow: hidden;
-    }
+    } */
 
     .wy-nav-side .wy-side-scroll .ethical-rtd {
         width: calc(300px - 1.25em);
