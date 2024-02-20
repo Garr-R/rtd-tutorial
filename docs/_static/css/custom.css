@@ -58,6 +58,10 @@
     background-color: var(--content-wrap-background-color);
 }
 
+.wy-side-nav-search.fixed {
+    position: fixed;
+}
+
 .wy-nav-side { overflow: visible; }
 .wy-side-scroll { overflow-x: inherit; }
 
@@ -189,6 +193,7 @@
         width: calc(300px - 1.25em);
         padding: 0 0 0 1em;
     }
+
 }
 
 @media screen and (max-width: 768px) {
